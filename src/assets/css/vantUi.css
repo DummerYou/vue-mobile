@@ -1,0 +1,7 @@
+.van-cell{
+    font-size:0.373333rem;
+    line-height: 1.5;
+}
+.van-cell-group.van-hairline--top-bottom::after {
+    border-width: 0 0;
+}

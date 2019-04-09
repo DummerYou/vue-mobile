@@ -1,0 +1,97 @@
+div{
+    box-sizing: border-box;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+/*修改提示文字的颜色*/
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color: #B0B0B0;
+}
+
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #B0B0B0;
+}
+
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #B0B0B0;
+}
+
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #B0B0B0;
+}
+
+
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+.fs16{
+    color: #333333;
+    font-size: 0.4266666rem;
+    line-height: 0.58666666rem;
+}
+.compute{
+    background-color: #F5F5F5;
+    min-height: 100%;
+    padding: 0.53333338rem 0.2666666rem;
+}
+.compute-top{
+    overflow: hidden;
+    padding: 0.53333333rem 0.53333338rem;
+    background:rgba(255,255,255,1);
+    border-radius:0.53333338rem;
+    margin-bottom:  0.53333338rem;
+}
+.compute-list{
+    overflow: hidden;
+}
+.compute-list+.compute-list{
+    margin-top: 0.53333333rem;
+}
+.compute-list .van-cell{
+    padding: 0;
+    font-size: 0.426666rem;
+    line-height: 0.58666rem;
+}
+.compute-list .van-field__control{
+    text-align: right;
+}
+.compute-bottom{
+    padding:0.266666666rem;
+}
+.compute-bottom h3{
+    padding-bottom: 0.8rem;
+}
+.compute-empty{
+    text-align: right;
+    padding-right: 0.266666rem;
+}
+.compute-empty-but{
+    display: inline-block;
+    width:2.666666rem;
+    height:1.12rem;
+    background:linear-gradient(90deg,rgba(254,133,132,1) 0%,rgba(255,95,95,1) 100%);
+    box-shadow:0rem 0.0266666rem 0.106666rem 0rem rgba(255,98,98,0.46);
+    border-radius:0.746666rem;
+    font-size:0.48rem;
+    font-family:PingFangSC-Medium;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:1.12rem;
+    text-align: center;
+
+}
+.compute-list-clickyear{
+    color: #278AFF
+}
+.compute-list .van-icon{
+    font-size: 0.26666rem;
+    color: #000000;
+}

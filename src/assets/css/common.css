@@ -1,0 +1,98 @@
+/*
+ * wangsheng.chen
+ * 公用css样式
+ */
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+    word-break: break-all;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+	padding: 0;
+}
+ul,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #4091ff;
+	cursor: pointer;
+}
+.pointer{
+	cursor: pointer;
+}
+.centerBox{
+	margin: 0 auto;
+}
+.blue{
+	color: #4091ff;
+}
+.red{
+	color: red;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-30{
+	margin-top: 30px;
+}
+
+.ml-10 {
+    margin-left: 10px;
+}
+
+.ml-20 {
+    margin-left: 20px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+
+.f-l{
+	float: left;
+}
+.f-r{
+	float: right;
+}
+.t-r{
+	text-align: right
+}
+i{
+	cursor: pointer;
+}
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.hide{
+	display: none;
+}
